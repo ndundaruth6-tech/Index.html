@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kukimoto</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
@@ -13,8 +14,11 @@
     <a href="#about">About</a> |
     <a href="#contact">Contact</a>
     </nav>
-
-    </header>
+<header>
+    <h1 id="home">KUKIMOTO</h1>
+    <p>Your favorite meals, just a click away 🍔🍕</p>
+    <hr>
+</header>
     <h3>How to Order</h3>
     
 <ol>
@@ -24,10 +28,6 @@
     <li>Enter your delivery details.</li>
     <li>Make payment and wait for delivery.</li>
 </ol>
-        <h1>KUKIMOTO</h1>
-        <p>Your favorite meals, just a click away 🍔🍕</p>
-        <hr>
-</header>
 
 <p>
 Welcome to kukimoto, where delicious meals are just a click away.
@@ -45,9 +45,9 @@ services while ensuring customer satisfaction through quality meals and excellen
     <li>Customer Support</li>
 </ul>
 
-<h2>Price Table</h2>
+<h2 id="menu">Food Menu and Prices</h2>
 
-<table border="1">
+<table border= "1">
     <tr>
         <th>Food</th>
         <th>Description</th>
@@ -63,9 +63,45 @@ services while ensuring customer satisfaction through quality meals and excellen
         <td>Crispy fries</td>
         <td>Ksh 150</td>
     </tr>
+    <tr>
+    <td>Pizza</td>
+    <td>Cheese Pizza</td>
+    <td>Ksh 700</td>
+</tr>
+
+<tr>
+    <td>Chicken Wings</td>
+    <td>Spicy Wings</td>
+    <td>Ksh 400</td>
+</tr>
+
+<tr>
+    <td>Soda</td>
+    <td>Cold Drink</td>
+    <td>Ksh 100</td>
+</tr>
 </table>
-    <section>
-        <h2>About Us</h2>
+    <h2>Food Gallery</h2>
+
+<div class="gallery">
+    <img src="burger.jpg" alt="Burger">
+
+    <img src="pizza.jpg" alt="Pizza">
+
+    <video controls>
+        <source src="foodvideo.mp4" type="video/mp4">
+    </video>
+
+    <img src="fries.jpg" alt="Fries">
+</div>
+    HTML
+<h2>Promotional Audio</h2>
+
+<audio controls>
+    <source src="promo.mp3" type="audio/mpeg">
+</audio>
+    <section id="about">
+    <h2>About Us</h2>
         <p>
             We deliver delicious food straight to your door. Fast, fresh, and reliable.
         </p>
@@ -93,15 +129,13 @@ services while ensuring customer satisfaction through quality meals and excellen
             <p>Golden, crispy, and perfectly salted.</p>
         </div>
 
+    <section id="contact">
+    <h2>Contact Us</h2>
+
+    <p>Email: kukimoto@gmail.com</p>
+    <p>Phone: +254 700 123456</p>
     </section>
-    <h2>Promotional Audio</h2>
 
-<p>Listen to our restaurant promotion.</p>
-
-<audio controls>
-    <source src="promo.mp3.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-</audio>
 <h2>Our Promo Video</h2>
 
 <iframe width="300" height="200"
@@ -109,7 +143,7 @@ src="https://www.youtube.com/embed/dQw4w9WgXcQ"
 allowfullscreen>
             </iframe>
     <footer>
-        <hr>
+    <hr>
         <p>© 2026 kukimoto| All rights reserved</p>
     </footer>
 
