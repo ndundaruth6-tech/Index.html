@@ -8,7 +8,7 @@ document.getElementById("myForm").addEventListener("submit", function(event){
     let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     if(!emailPattern.test(email)){
-        alert("Enter a valid email e.g. stacey20@gmail.com");
+        alert("ndundaruth6@gmail.com");
         event.preventDefault();
     }
 });
