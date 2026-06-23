@@ -1,4 +1,4 @@
-window.onload = function() {
+swindow.onload = function() {
     alert("🍔 Welcome to Kukimoto! Enjoy our delicious meals.");
 };
 document.getElementById("myForm").addEventListener("submit", function(event){
