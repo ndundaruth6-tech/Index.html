@@ -3,7 +3,7 @@ swindow.onload = function() {
 };
 document.getElementById("myForm").addEventListener("submit", function(event){
 
-    let email = document.getElementById("email").value;
+   let email = document.getElementById("email").value;
 
     let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
